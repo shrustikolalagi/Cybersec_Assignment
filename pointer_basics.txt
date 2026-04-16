@@ -1,0 +1,12 @@
+=== Pointer Basics Demo ===
+
+[1] Port value using variable  : 80
+[2] Port value using pointer   : 80
+    Address stored in pointer  : 0x7ffe50c47274
+    Address of port variable   : 0x7ffe50c47274
+
+[3] Port changed via pointer.
+    New port value (variable)  : 443
+    New port value (pointer)   : 443
+
+=== End of Demo ===

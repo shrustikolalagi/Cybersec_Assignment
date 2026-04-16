@@ -1,0 +1,8 @@
+Scanning 127.0.0.1 ...
+
+Port 22: CLOSED
+Port 80: CLOSED
+Port 443: CLOSED
+Port 3306: CLOSED
+
+Scan complete.

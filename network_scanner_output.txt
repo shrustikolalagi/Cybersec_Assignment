@@ -1,0 +1,23 @@
+=======================================================
+  CampusPe - Network Port Scanner
+=======================================================
+  Target      : 127.0.0.1
+  Ports       : 21,22,80,443,3306
+  Output File : results.txt
+=======================================================
+
+[*] Scanning 127.0.0.1 on 5 port(s)...
+
+  [-] Port 21     (FTP            ) CLOSED
+  [-] Port 22     (SSH            ) CLOSED
+  [-] Port 80     (HTTP           ) CLOSED
+  [-] Port 443    (HTTPS          ) CLOSED
+  [-] Port 3306   (MySQL          ) CLOSED
+
+=======================================================
+  Scan complete in 0.00 seconds
+  Open  : 0
+  Closed: 5
+=======================================================
+
+[*] Results saved to: results.txt

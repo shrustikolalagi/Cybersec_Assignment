@@ -1,0 +1,22 @@
+============================================
+  Port Scan Report
+  Target   : 192.168.80.1
+  Date     : Thu Apr 16 02:03:05 AM EDT 2026
+  Scanner  : port_report.sh
+============================================
+
+[*] Starting scan on 192.168.80.1 ...
+
+  Port 21 (FTP): CLOSED
+  Port 22 (SSH): CLOSED
+  Port 80 (HTTP): CLOSED
+  Port 443 (HTTPS): CLOSED
+  Port 3306 (MySQL): OPEN
+
+============================================
+  SCAN SUMMARY
+  Total ports scanned : 5
+  Total open ports    : 1
+============================================
+
+[*] Results saved to: scan_192.168.80.1_2026-04-16_02-03-05.txt

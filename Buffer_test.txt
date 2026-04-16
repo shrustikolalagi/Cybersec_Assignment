@@ -1,0 +1,21 @@
+Script started on 2026-04-14 10:56:28-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="153" LINES="43"]
+zsh: corrupt history file /home/kali/.zsh_history
+                                                                                                                                                         ]0;kali@kali: ~/Desktop[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h.[36m.[39m[36m.[36m/[39m[4m[32m.[4m[32m/[24m[39m[4m[32m.[4m[32m/[4m[32mB[24m[39m[24m[39m[1m.[24m[39m[1m/[24m[39m[1mB[0m[1mB[1mu[0m[1mu[1mf[0m[1mf[1mf[0m[1mf[1me[0m[1me[1m_[0m[8D[0m[4m.[0m[4m/[0m[4mB[0m[4mu[0m[4mf[0m[4mf[0m[4me[0m[4m_[24m[4me[24m[24m [24m[1m.[24m[1m/[24m[1mB[24m[1mu[24m[1mf[24m[1mf[24m[1me[0m[1me[1mr[0m[1mr[1m_[0m[1m_[1mt[0m[1mt[1me[0m[1me[1ms[0m[1ms[1mt[0m[13D[0m[36m.[0m[36m/[0m[36mB[0m[36mu[0m[36mf[0m[36mf[0m[36me[0m[36mr[0m[36m_[0m[36mt[0m[36me[0m[36ms[0m[36mt[39m[?1l>[?2004l
+=== Buffer Overflow Demo (EDUCATIONAL) ===
+Buffer size     : 16 bytes
+Canary value    : 0xDEADBEEF (should stay 0xDEADBEEF)
+
+Enter a string (try more than 15 characters): Chennai_super_kings
+
+[DEBUG] Input length: 19 characters
+Copied string   : Chennai_super_kings
+Canary value    : 0xDEADBEEF (intact – no overflow)
+
+=== End of Demo ===
+                                                                                                                                                         ]0;kali@kali: ~/Desktop
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004he[4me[24m[4me[24m[38;5;244mxec zsh[39m[4me[39m[4mx[24m[24m[36me[24m[36mx[39m[36me[36mx[36mi[39m[39m [39m [39m [39m [39m [39m[4me[39m[4mx[39m[4mi[24m[4mi[4mt[24m[24m[36me[24m[36mx[24m[36mi[24m[36mt[39m[?1l>[?2004l
+zsh: corrupt history file /home/kali/.zsh_history
+
+Script done on 2026-04-14 10:57:49-04:00 [COMMAND_EXIT_CODE="0"]
